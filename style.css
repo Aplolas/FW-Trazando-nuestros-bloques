@@ -1,0 +1,57 @@
+.container{ /*Bloque gris que contiene todo lo demás*/
+    width: 1100px; /*Ancho*/
+    height: 800px; /*Altura*/
+    background-color: silver; /*Color de fondo*/
+    margin: 0px auto; /*Se establece que el bloque irá en el centro del contenedor padre*/
+}
+
+.top-nav { /*Bloque color verde*/
+    height: 150px;
+    background-color: green;
+}
+
+.side-nav { /*Bloque color azul*/
+    height: 400px;
+    width: 200px;
+    margin: 10px; /*Distancia entre el bloque verde y el azul*/
+    margin-left: 1px; /*Distancia entre el borde izquierdo del bloque gris y el borde del bloque azul*/
+    background-color: blue;
+    display: inline-block; /*Para alinear con los demás*/
+    vertical-align: top; /*Alinear hacia arriba*/
+}
+
+.main {
+    height: 550px;
+    width: 815px;
+    margin: 10px; /*ADefine la parte exterior = Hacia afuera*/
+    padding: 5px; /*Define la parte intera = Hacia adentro*/
+    background-color: red;
+    display: inline-block;
+}
+
+.sub-content1 {
+    display: inline-block;
+    vertical-align: middle; /*Alinear hacia arriba y al medio*/
+}
+
+#advertisement {
+    height: 120px;
+    width: 690px;
+    background-color: purple;
+    display: inline-block;
+    margin-top: 20px; /*Distancia entre el borde de arriba del bloque purpura y los cuadrados amarillos*/
+    margin-left: 10px; /*Distancia entre el borde izquierdo del bloque purpura y el bloque rojo*/
+}
+
+*{
+padding: 20px /*Define la parte intera = Hacia adentro y afecta a todo el proyecto*/
+}
+
+.sub-content1, .sub-content2, .sub-content3 {
+    height: 190px;
+    width: 190px;
+    margin: 10px;
+    background-color: yellow;
+    display: inline-block;
+    float:left; /*Define como debe flotar el elemento y en este caso es a la izquierda*/
+}
